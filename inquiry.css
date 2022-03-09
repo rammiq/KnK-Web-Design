@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form{
+    margin-top: 250px;
+    text-align: left;
+    margin-left: 250px;
+}
+
+input, select, textarea {
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Poppins', sans-serif;
+    width: 500px;
+    padding: 8px;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  button {
+    height: 50px;
+    background: green;
+    color: white;
+    border: 2px solid darkgreen;
+    font-size: 1.25em;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    border: 2px solid black;
+  }
