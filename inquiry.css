@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+.inquiry{
+  margin-top: 250px;
+  text-align: center;
+}
+.button-submit{
+  font-size: 30px;
+  text-align: center;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  min-width: 300px;
+  margin-top: 50px;
+}
+input{
+  border: none;
+  font-size: 30px;
+  line-height: 80px;
+  margin-top: 10px;
+  width: 600px auto;
+  text-align: center;
+}
+.form-message{
+  height: 200px;
+  min-width: 850px;
+}
