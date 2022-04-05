@@ -60,21 +60,31 @@
       $(".preloader").fadeOut("slow");
     })
     </script>
-    <div class="inquiry">
-        <h1 class="title-inquiry">Gerne können Sie uns anfragen.</h1>
-        <h2 class="subtitle-inquiry">Füllen Sie bitte das untenstehende Formular aus.</h2>
-    </div>
+     <div class="inquiry-main">
+        <div class="inquiry">
+            <h1 class="title-inquiry">Gerne können Sie uns anfragen.</h1>
+            <h2 class="subtitle-inquiry">Füllen Sie bitte das untenstehende Formular aus.</h2>
+            <div class="gap-inquiry">
+                &darr;
+            </div>
+        </div>
+        
+        
     
-
-    <form class="form" action="https://formsubmit.co/ramon.kramer71@gmail.com" method="POST">
-        <input type="hidden" name="_subject" value="New Email!"> 
-        <input type="text" name="name" placeholder="Vor- und Nachname" required> <br>
-        <input type="email" name="email" placeholder="Email Adresse" required>  <br>
-        <input type="hidden" name="_next" value="https://kumarkramer.netlify.app/index.html">
-        <input class="form-message" type="text" name="message" placeholder="Ihre Nachricht" required><br>
-        <button class="button-submit" type="submit">Senden</button>
-    </form>
-
+        <form class="form" action="https://formsubmit.co/ramon.kramer71@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New Email!"> 
+            <input type="text" name="Vor- und Nachname" placeholder="Vor- und Nachname" required> <br>
+            <input type="email" name="Email Adresse" placeholder="Email Adresse" required>  <br>
+            <input type="hidden" name="_next" value="https://kumarkramer.netlify.app/index.html">
+            <textarea placeholder="Ihre Nachricht" class="form-control" name="message" rows="3" required></textarea><br>
+            <button class="button-submit" type="submit">Senden</button><br>  
+            <div class="form-data-safety">
+                <h2>Die eingegeben Daten werden mit reCAPTCHA geprüft. </h2>
+            </div>
+        
+        </form>
+        
+    </div>
     
 
     

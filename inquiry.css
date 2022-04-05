@@ -4,15 +4,36 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+.inquiry-main{
+  margin-top: -50px;
+  
+}
 .form{
   margin-top: 20px;
   text-align: center;
   font-size: 40px;
+  background-color: #f0ebeb93;
+  border-radius: 35px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .inquiry{
   margin-top: 250px;
   text-align: center;
+  background-color: rgb(4, 30, 68);
+  border-radius: 25px;
+  max-width: 80%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+.title-inquiry{
+  font-size: 50px;
+}
+.subtitle-inquiry{
+  line-height: 20px
 }
 .button-submit{
   font-size: 30px;
@@ -22,7 +43,8 @@
   color: white;
   border-radius: 25px;
   min-width: 300px;
-  margin-top: 50px;
+  margin-top: 20px;
+  z-index: 3000;
 }
 input{
   border: none;
@@ -33,6 +55,60 @@ input{
   text-align: center;
 }
 .form-message{
-  height: 200px;
-  min-width: 850px;
+  
+  text-align: center;
 }
+.form-control{
+  font-size: 30px;
+  margin-top: 20px;
+  width: 370px;
+  border: none;
+
+}
+
+.form-data-safety{
+  opacity: 0.5;
+  text-align: center;
+  margin-top: 20px;
+}
+.gap-inquiry{
+  font-size: 50px;
+}
+
+
+
+.grow-wrap {
+  /* easy way to plop the elements on top of each other and have them both sized based on the tallest one's height */
+
+  height: 250px;
+  width: 850px;
+  place-items: center;
+
+}
+.grow-wrap::after {
+  /* Note the weird space! Needed to preventy jumpy behavior */
+  content: attr(data-replicated-value) " ";
+
+  /* This is how textarea text behaves */
+  white-space: pre-wrap;
+
+  /* Hidden from view, clicks, and screen readers */
+  visibility: hidden;
+}
+.grow-wrap > textarea {
+  /* You could leave this, but after a user resizes, then it ruins the auto sizing */
+  resize: none;
+
+  /* Firefox shows scrollbar on growth, you can hide like this. */
+  overflow: hidden;
+}
+.grow-wrap > textarea,
+.grow-wrap::after {
+  /* Identical styling required!! */
+  border: 1px solid black;
+  padding: 0.5rem;
+  font: inherit;
+
+  /* Place on top of each other */
+  grid-area: 1 / 1 / 2 / 2;
+} 

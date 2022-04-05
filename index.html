@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="kk.css">
+    <link rel="stylesheet" href="inquiry.css">
     <link rel="icon" href="/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,7 +67,7 @@
         
         <div>
             <h1 class="title-home">Hi, we're Kumar <br> and Kramer</h1>
-            <h1 class="subtitle-home">web developer</h1>
+            <h1 class="subtitle-home">innovative web design</h1>
   
         </div>
       <div class="button-home">
@@ -86,11 +87,11 @@
             Technologien:
         </h1>
         <ul class="ul-tech">
-            <li class="li-tech"><img class="img-tech" src="img/html5-svgrepo-com.svg" alt=""></li>
-            <li class="li-tech"><img class="img-tech" src="img/css3-svgrepo-com.svg" alt=""></li>
-            <li class="li-tech"><img class="img-tech" src="img/javascript-svgrepo-com.svg" alt=""></li>
-            <li class="li-tech"><img class="img-tech" src="img/java-svgrepo-com.svg" alt=""></li>
-            <li class="li-tech"><img class="img-tech" src="img/netlify-svgrepo-com.svg" alt=""></li>
+            <a href="www.html.com"><li class="li-tech"><img class="img-tech" src="img/html5-svgrepo-com.svg" alt=""></li></a>
+            <a href="www.css.com"><li class="li-tech"><img class="img-tech" src="img/css3-svgrepo-com.svg" alt=""></li></a>
+            <a href="www.javascript.com"><li class="li-tech"><img class="img-tech" src="img/javascript-svgrepo-com.svg" alt=""></li></a>
+            <a href="java.com"><li class="li-tech"><img class="img-tech" src="img/java-svgrepo-com.svg" alt=""></li></a>
+            <a href="netlify.com"><li class="li-tech"><img class="img-tech" src="img/netlify-svgrepo-com.svg" alt=""></li></a>
         </ul>
         <div class="gap">
             &darr;
@@ -149,9 +150,31 @@
             <li class="counter-right-li2"><i class="fa-solid fa-person-chalkboard"></i><br> 1 <br> Team</li>
         </ul>
     </div>
-
-
-
+    <hr class="hr-counter">
+    <div class="inquiry-main">
+        <div class="inquiry">
+            <h1 class="title-inquiry">Gerne können Sie uns anfragen.</h1>
+            <h2 class="subtitle-inquiry">Füllen Sie bitte das untenstehende Formular aus.</h2>
+            <div class="gap-inquiry">
+                &darr;
+            </div>
+        </div>
+        
+    
+        <form class="form" action="https://formsubmit.co/ramon.kramer71@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New Email!"> 
+            <input type="text" name="Vor- und Nachname" placeholder="Vor- und Nachname" required> <br>
+            <input type="email" name="Email Adresse" placeholder="Email Adresse" required>  <br>
+            <input type="hidden" name="_next" value="https://kumarkramer.netlify.app/index.html">
+            <textarea placeholder="Ihre Nachricht" class="form-control" name="message" rows="3" required></textarea><br>
+            <button class="button-submit" type="submit">Senden</button><br>  
+            <div class="form-data-safety">
+                <h2>Die eingegeben Daten werden mit reCAPTCHA geprüft. </h2>
+            </div>
+        
+        </form>
+        
+    </div>
 
 
 

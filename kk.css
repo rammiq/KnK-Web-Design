@@ -243,9 +243,8 @@ nav.black > ul > li > a:hover{
 
 .chevron {
     position: absolute;
-    left: 50%;
+    left: 49%;
     margin-top: -200px;
-
     width: 28px;
     height: 8px;
     opacity: 0;
@@ -328,7 +327,7 @@ nav.black > ul > li > a:hover{
     color: #b3b1b18e;
     font-size: 80px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .ul-tech{
     margin-top: 30px;
@@ -352,7 +351,7 @@ nav.black > ul > li > a:hover{
 /*why us*/
 .whyus{
     background-color: #f0ebeb93;
-    margin-top: 0px;
+    margin-top: 25px;
     border-radius: 55px;
     max-width: 80%;
     margin-left: auto;
@@ -499,6 +498,12 @@ h2{
   color: white;
   transition: 0.3s;
 }
+.hr-counter{
+  margin-top: 150px;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
@@ -506,7 +511,7 @@ h2{
 
 /*Footer*/
 .hr-footer{
-    margin-top: 1000px;
+    margin-top: 100px;
   }
   .footer-card{
     position: relative;
