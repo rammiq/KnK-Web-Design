@@ -8,6 +8,19 @@
   margin-top: -50px;
   
 }
+.test1{
+  opacity: 1;
+  font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: -220px;
+  text-align: center;
+
+}
+.test1-hr{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+}
 .form{
   margin-top: 20px;
   text-align: center;
@@ -47,7 +60,7 @@
   color: white;
   border-radius: 25px;
   min-width: 300px;
-  margin-top: 20px;
+  margin-top: 90px;
   z-index: 3000;
 }
 input{
@@ -79,7 +92,11 @@ input{
   font-size: 50px;
 }
 
-
+.attached-file{
+  margin-top: 0px;
+  font-size: 20px;
+  position: absolute;
+}
 
 .grow-wrap {
   /* easy way to plop the elements on top of each other and have them both sized based on the tallest one's height */
